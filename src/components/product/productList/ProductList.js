@@ -59,7 +59,7 @@ const ProductList = ({ products, isLoading }) => {
   const [currentItems, setCurrentItems] = useState([]);
   const [pageCount, setPageCount] = useState(0);
   const itemsPerPage = 5;
-  //const currentItems = items.slice(itemOffset, endOffset);
+  ///const currentItems = items.slice(itemOffset, endOffset);
   //const pageCount = Math.ceil(items.length / itemsPerPage);
 
   useEffect(() => {
